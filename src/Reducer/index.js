@@ -7,7 +7,7 @@ import orderreducer from './OrderReducer';
 const reducer = combineReducers({
     TableReducer:tablereducer,
     FilterReducer:filterreducer,
-    OrderReducer: orderreducer
+    OrderReducer: orderreducer,
 
 })
 
