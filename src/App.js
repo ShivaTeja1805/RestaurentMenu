@@ -9,7 +9,7 @@ const App = () => {
   return (
     <HashRouter>
       <Routes>
-        <Route path='//RestaurentMenu' element={<Home />}></Route>
+        <Route path='/RestaurentMenu' element={<Home />}></Route>
         <Route path='/Orders' element={<Orders />}></Route>
         <Route path='*' element={<PageNotFound />}></Route>
       </Routes>
