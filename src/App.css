@@ -1,0 +1,42 @@
+.navbar{
+  background-color: #333;
+  padding: 2vmin 4vmin;
+}
+
+.navbar .logo{
+  color: white;
+  font-weight:400;
+  
+}
+.logo .aroma{
+  font-size: 4vmin;
+  margin-right:2px;
+  color: #ffc107;
+  font-weight: bolder;
+  letter-spacing:3px;
+}
+.navbar .logo:hover{
+  color: white;
+}
+
+.navbar .btn{
+  /* padding: 1vmin 3vmin; */
+  font-weight: bold;
+}
+.navbar .badge{
+  width: 3vmin;
+  height: 3vmin;
+}
+
+
+/* -------TABLES COMPONENT------------ */
+.tablelist{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vmin;
+  padding: 2vmin 0;
+}
+.tablelist .btn{
+  font-weight: bold;
+}
