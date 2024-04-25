@@ -67,7 +67,7 @@ const Card = ({filter,table_number, placeorder, resettablenum, resetfilter}) => 
                             const src = matchingPicture ? matchingPicture.url : item.url;
 
                             return (
-                                <div className='col-sm-6 col-md-3 mt-2' key={item.id} >
+                                <div className='col-sm-6 col-md-4 col-6 mt-2 ' key={item.id} >
                                     <div className='card'>
                                         <img src={src} className='card-img-top ' style={{ height: '200px', backgroundSize:'cover'}} alt='...' />
                                         <div className="card-body">
