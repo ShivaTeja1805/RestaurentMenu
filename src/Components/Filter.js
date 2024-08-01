@@ -5,7 +5,7 @@ import {setfilter, resetfilter} from '../Action/Actions'
 const Filter = ({filter, setfilter}) => {
     let items = ['All-items', 'Rice Items', 'Cold Drinks', 'Pizza', 'Hot Drinks']
 
-    // let [filter, setFilter] = useState("All-items") 
+    let [filter, setFilter] = useState("All-items") 
 
   return (
     <div>
